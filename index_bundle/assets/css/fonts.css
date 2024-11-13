@@ -1,0 +1,7 @@
+@font-face {
+  font-family: CompagnonLight;
+  src:url(../fonts/Compagnon-Light.woff) format("woff"),
+      url(../fonts/Compagnon-Light.woff2) format("woff2");
+  font-weight:200;
+  font-style:normal;
+}
