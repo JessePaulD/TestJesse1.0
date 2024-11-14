@@ -6,7 +6,21 @@
 body{
 	font-family: "CompagnonLight";
 }
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5%;
+  margin: 5%;
+}
 
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+</style>
 .container{
 
 }
