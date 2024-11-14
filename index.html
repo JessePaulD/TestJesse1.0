@@ -3,8 +3,10 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('https://raw.githubusercontent.com/JessePaulD/TestJesse1.0/refs/heads/main/assets/Hintergrund/konradhintergrund.jpg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000;
 }
 
 .image-grid {
@@ -12,7 +14,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 5%;
-  margin: 5%;
+  margin: 10% 5% 5%;
   position: relative;
   z-index: 1;
 }
@@ -26,9 +28,8 @@ body {
 h1 {
   position: absolute;
   top: 2%;
-  right: 2%;
+  left: 2%;
   text-align: left;
-  margin-top: 10%;
   color: white;
   z-index: 2;
 }
@@ -43,8 +44,4 @@ h1 {
   <img src="assets/screenshots/Screenshot_Aufg.3.0_2_Jesse.png" alt="Screenshot 4">
   <img src="assets/screenshots/Screenshot_Aufg.3.0_3_Jesse.png" alt="Screenshot 5">
   <img src="assets/screenshots/Screenshot%20Aufg.4.0_Jesse.png" alt="Screenshot 6">
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
 </div>
