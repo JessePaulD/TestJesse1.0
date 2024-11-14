@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/fonts.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-	<title>Webbies-Website-By-JD</title>
-</head>
-
-<body>
-	<h1>Webbies-Website-JD</h1>
-
-	<style>
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 5%;
-  margin: 5%;
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://raw.githubusercontent.com/JessePaulD/TestJesse1.0/refs/heads/main/assets/Hintergrund/konradhintergrund.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .image-grid {
   display: grid;
@@ -26,11 +14,8 @@
   gap: 5%;
   margin: 5%;
   position: relative;
-  background-image: url('https://raw.githubusercontent.com/JessePaulD/TestJesse1.0/refs/heads/main/assets/Hintergrund/konradhintergrund.jpg');
-  background-size: cover;
-  background-position: center;
+  z-index: 1;
 }
-
 
 .image-grid img {
   width: 100%;
@@ -38,15 +23,18 @@
   object-fit: cover;
 }
 
-.h1 {
+h1 {
   position: absolute;
   top: 2%;
   right: 2%;
   text-align: left;
   margin-top: 10%;
+  color: white;
+  z-index: 2;
 }
-
 </style>
+
+<h1>Webbies-Website-JD</h1>
 
 <div class="image-grid">
   <img src="assets/screenshots/Screenshot1_2.0_Jesse_1.png" alt="Screenshot 1">
